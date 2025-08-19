@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-   baseURL: process.env.REACT_APP_API_URL || "http://localhost:5000"  // your backend base URL
+   baseURL: "https://leave-management-backend-2-ud2g.onrender.com/api"  // your backend base URL
 });
 
 // Add a request interceptor to add token to headers
