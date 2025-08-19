@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',  // your backend base URL
+  baseURL: 'https://leave-management-backend-2-ud2g.onrender.com',  // your backend base URL
 });
 
 // Add a request interceptor to add token to headers
